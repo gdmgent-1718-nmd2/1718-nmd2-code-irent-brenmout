@@ -171,23 +171,22 @@ p.opsommingen {
 
 
 .tabel td {
-    width: 200px;
     padding: 100px;
 }
 
 .tabel tr {
     border: 1px solid #000000;
-    font-family: lato;
+    font-family: lato;    
 }
 
 
 .tabel th {
-  padding: 3px 50px;
+  padding: 7px 80px;
 }
 
 .tabel td {
-    padding: 3px 50px;
-
+    padding: 7px 80px;
+    text-align: left;
   }
 
 .titelprijs {
@@ -244,4 +243,12 @@ p.opsommingen {
 .knopterug {
    margin-left: 130px; 
    margin-top: -65px;
+}
+
+#date {
+    border: 2px solid #F1B31C;
+    font-family: lato;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
 }
