@@ -9,6 +9,8 @@
       url: /product/winkelwagen.html
     - title: Bedanking
       url: /product/bedanking.html
+    - title: Betaling
+      url: /product/betaling.html
 - title: Over Ons
   url: /overons.html
 - title: Contact

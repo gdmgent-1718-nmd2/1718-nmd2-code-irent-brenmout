@@ -5,53 +5,74 @@ permalink: winkelwagen.html
 # ─────────────────────
 title: Soccer Shoe Rent Winkelwagen
 ---
-<div class="achtergrond">
-        <img src="{{ site.baseurl }}/images/achtergrond_desktop.jpg" class="img-hover img-fluid">
-    </div>
- 
-        <div class="container">
+<div class="container">
 
-            <div class="vrijgesteldeschoen">
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-xs-6 proces text-center">
+                <p><span style="color:#F1B31C"><b>Winkelwagen</b></span> > Checkout > Betaling</p>        
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-xs-12">
                 <img src="{{ site.baseurl }}/images/vrijgesteldeschoen.png" class="img-hover img-fluid">
             </div>
-<div class="titelprijs">
-<h2>Nike Hypervenom Phelon III DF FG</h2>
+            <div class="col-md-8 col-xs-12">
+                <div id="kruisje">
+                     <span id="x">X</span>
+               </div> 
+                <h2>Nike Hypervenom Phelon III DF FG</h2>
+                 
+                <p class="beschikbaar">Beschikbaar</p>
+                <p>Voor 23:59 besteld, overmorgen in huis</p>
+                <p class="prijs">€10</p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-12">
+                <h4>Duid hier de begin en einddatum aan:</h4>
+            </div>
+        </div>
 
-<div class="prijs"
-<p>€10</p>
+        <div class="row">
+            <div class="col-md-6 col-xs-12">
+                <p>Begindatum: <input id="date" type="date"></p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <p>Einddatum: <input id="date" type="date"></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-xs-8 text-center table">
+                    <table>
+                            <tr>
+                                <th>Subtotaal</th>
+                                <th>10 euro</th> 
+                            </tr>
+                            <tr>
+                                <td>Verzending</td>
+                                <td>5 euro</td> 
+                            </tr>
+                            <tr>
+                                <td>Taxes</td>
+                                <td>3 euro</td> 
+                            </tr>
+                            <tr>
+                                <td><b>TOTAAL</b></td>
+                                <td><b>18 euro</b></td> 
+                            </tr>
+                        </table>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xs-6 text-center">
+                <a class="btn btn-primary" href="{{ site.baseurl }}/product.html">< Ga terug</a>
+            </div>
+            <div class="col-xs-6 text-center">
+                <a class="btn btn-primary" href="{{ site.baseurl }}/product/checkout.html">CHECKOUT</a>
+            </div>
+        </div>
 </div>
-</div>
-
-<div class="table align="center"">
-<table style="width:50%">
-        <tr>
-          <th>Subtotaal</th>
-          <th>10 euro</th> 
-        </tr>
-        <tr>
-          <td>Verzending</td>
-          <td>5 euro</td> 
-        </tr>
-        <tr>
-          <td>Taxes</td>
-          <td>3 euro</td> 
-        </tr>
-        <tr>
-          <td><b>TOTAAL</b></td>
-          <td><b>18 euro</b></td> 
-        </tr>
-      </table>
-    </div>
-
-<p>Duid hier de datum aan wanneer je de schoen wenst beginnen te huren!</p>
-    <input id="date" type="date">
-
-    <div class="container">
-        <a class="btn btn-primary" href="{{ site.baseurl }}/product.html"> < Ga terug</a>
-
-
-      <div class="container">
-            <a class="btn btn-primary" href="{{ site.baseurl }}/product/checkout.html">CHECKOUT</a>
-      </div>
-      </div>
-    </div>

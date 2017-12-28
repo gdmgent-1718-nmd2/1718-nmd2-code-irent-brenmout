@@ -1,16 +1,62 @@
-.achtergrond img {
+.background{
+    overflow-x: hidden;
+    background-image: url(../../images/achtergrond_desktop.jpg);
+    background-position: center center;
+  
+    background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+    background-color: #464646;
+
+}
+
+.img {
+    margin-right: -15px; // Remove right gap
+    margin-left: -15px;  // Remove left gap
+    padding-bottom: 62.5%; // ratio is 16:10
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.achtergrond {
 width: 100%;
 position: absolute;
 z-index: -999;
 }
 
-.overons {
-    text-align: center;
-}
-
-.home_foto {
+.fotohome {
     border-top: 7px solid #F1B31C;
     border-bottom: 7px solid #F1B31C;
+}
+
+p.verhaal {
+    line-height: 160%;
+}
+
+#standaardlijn {
+    background-color: #F1B31C;
+    width: 80px;
+    border-width: 4px;
+}
+
+#ronaldo {
+    background-color: #F1B31C;
+    width: 350px;
+    border-width: 4px;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+input[type=radio] {
+   margin-right: 20px;
+}
+
+.titels {
+    margin-top: 50px;
 }
 
 .btn {
@@ -22,25 +68,44 @@ z-index: -999;
     color: black;
 }
 
-p {
-    line-height: 200%;
-    margin-top: 15px;
-}
-
-
-.container p {
-    font-family: "Lato";    
-    margin-left: -70px;
-}
-
-.container {
-    margin-left: 170px;
-}
-
-.container h2 {
-    font-family: "Lato";    
+h4.quote {
+    color:#F1B31C;
     font-weight: bold;
-    margin-left: -70px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.proces {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn:hover { 
+    background-color: #163139;
+}
+
+p {
+    font-family: lato;
+}
+
+h2 {
+    font-family: lato;
+    font-weight: bold;
+}
+
+h3 {
+    font-family: lato;
+    color: #F1B31C;
+}
+
+h4 {
+    font-family: lato;
+}
+
+h5 {
+    font-family: lato;
+    font-weight: bold;   
 }
 
 .tekstproduct {
@@ -49,54 +114,31 @@ p {
 }
 
 .beschrijvingschoen {
-    width: 600px;
     display: inline-block;
-}
-
-.lijn {
-    border-top: 5px solid #F1B31C;
-    width: 90px;
-    margin-top: 15px;
-    margin-left: -70px;
-    
-}
-
-.lijnoverons {
-    border-top: 5px solid #F1B31C;
-    width: 90px;
-    margin-left: 50%;
-    padding: 20px;
 }
 
 .container {
   margin-top: 20px;  
+  font-family: "Lato"; 
+  line-height: 160%; 
 }
 
 .form-control{
-    width: 50%;
     border-radius: 0;
     border: 1px solid black;
     background-color: transparent;
     font-family: lato;
-    margin: -10px 0px -10px 0px;
 }
 
 .form-control-1{
-    width: 100%;
     border-radius: 0;
     border: 1px solid black;
     background-color: transparent;
-    font-family: lato;
-    margin: -10px 0px -10px 0px;
-     
+    font-family: lato;   
 }
 
 .form-group-g {
     margin-bottom: 50px; 
-}
-
-.btn-primary {
-    margin-left: -70px;
 }
 
 #exampleInputEmail1 placeholder {
@@ -105,89 +147,46 @@ p {
 
 .siemen img {
     border-radius: 50%;
-    border: 7px solid #F1B31C;
-    
+    border: 7px solid #F1B31C; 
+}
+
+.tekstoverons {
+    margin-top: 50px;
 }
 
 .brent img {
     border-radius: 50%;
-    border: 7px solid #F1B31C;
-    
-}
-
-.tekst_overons {
-    width: 300px;
-    margin-left: 50%;
-}
-
-.vrijgestelde_foto {
-    margin-left: 70%;
-}
-
-.langelijn {
-    border-top: 5px solid #F1B31C;
-    width: 250px;
-    margin-left: 77%;
-    margin-top: 10px;
-}
-
-.quote {
-    color: #F1B31C;
-    font-style: italic;
-    font-family: lato;
-    margin-left: 74%;
-    margin-top: 10px;
-}
-
-.bijschrift_quote {
-    font-family: lato;
-    margin-left: 82%;
-    margin-top: -7px;
-}
-
-.tekst_overons {
-    font-family: lato;
-    
+    border: 7px solid #F1B31C;   
 }
 
 .ondergrond {
-    border-top: 5px solid #F1B31C;
+    border-top: 5px solid #F1B31C ;
     border-bottom: 5px solid #F1B31C;
-    width: 550px;
-    margin-left: 300px;
-    margin-top: -95px;
+    margin-top: 15px;
 }
 
-p.opsommingen {
-    margin-left: 30px;
+.beschikbaar {
+    color: #F1B31C;
 }
 
 .prijs {
     font-family: lato;
     font-size: 70px;
-    margin-left: -70px;
     font-weight: bold;
+    margin-top: 40px;
 }
 
-
-.tabel td {
-    padding: 100px;
+.table {
+    margin-top: 40px;
 }
 
-.tabel tr {
-    border: 1px solid #000000;
-    font-family: lato;    
-}
-
-
-.tabel th {
+.table th {
   padding: 7px 80px;
 }
 
-.tabel td {
+.table td {
     padding: 7px 80px;
-    text-align: left;
-  }
+}
 
 .titelprijs {
     float: right;
@@ -240,15 +239,15 @@ p.opsommingen {
     margin-left: 70px;
 }
 
-.knopterug {
-   margin-left: 130px; 
-   margin-top: -65px;
-}
-
 #date {
     border: 2px solid #F1B31C;
     font-family: lato;
     text-align: center;
     font-weight: bold;
     margin-top: 10px;
+    margin-left: 6px;
+}
+
+.checkoutw {
+    margin-left: 30px;
 }

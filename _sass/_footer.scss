@@ -1,10 +1,13 @@
-.text {
-    color: black;
+
+
+.kleurvlak{
+    background-color: #F1B31C;
+    width: 100vw;
+    margin-top: -20px;
 }
 
-.kleurvlak {
-    background-color: #F1B31C;
-    width: 100%;
+.text {
+    color: black;
 }
 
 .socialmedia {
@@ -14,4 +17,8 @@
 
 .navbar {
     font-family: lato;
+}
+
+.text-footer {
+    margin-top: 20px;
 }
