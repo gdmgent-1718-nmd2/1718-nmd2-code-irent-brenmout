@@ -1,5 +1,3 @@
-
-
 .kleurvlak{
     background-color: #F1B31C;
     width: 100vw;
@@ -10,15 +8,63 @@
     color: black;
 }
 
-.socialmedia {
-    height: 25px;
-    margin-top: 7px;
-}
-
 .navbar {
     font-family: lato;
 }
 
 .text-footer {
     margin-top: 20px;
+}
+
+.socialmedia a{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background-image: url(sprites.png);
+    background-size: 110px auto;
+    text-indent: -9999px;
+}
+
+.tw-button {
+    background-position: 25px 0px;
+}
+
+.tw-button:hover {
+    background-position: 70px 0px;
+}
+
+.tw-button:active {
+    background-position: 25px Opx;
+}
+
+.fb-button {
+    background-position: 25px -30px;    
+}
+
+.fb-button:hover {
+    background-position: -40px -30px;
+}
+
+.fb-button:active {
+    background-position: -55px -30px;
+}
+
+.in-button {
+    background-position: 25px -65px;
+}
+
+.in-button:hover {
+    background-position: -40px -65px;
+}
+
+.in-button:active {
+    background-position: -45px -65px;
+}
+
+.instagram {
+    margin-top: -20px;
+}
+
+.facebook {
+    margin-top: -20px;
 }

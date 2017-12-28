@@ -1,7 +1,6 @@
 .collapse {
     font-family: "lato";
     margin-left: 100px; 
-
 }
 
 #priceicon {
@@ -19,11 +18,36 @@
     font-size: 110%;
 }
 
-.shop {
-    height: 20px;
-    margin-left: -150px;
+.hamburger {
+    margin-left: 70px;
 }
 
 .img-logo {
     height: 90px;
 }
+
+.shopping {
+    margin-right: 200px;
+}
+
+.shopping a{
+    display: inline-block;
+    width: 30px;
+    height: 40px;
+    background-image: url(sprites.png);
+    background-size: 110px auto;
+    text-indent: -9999px;
+}
+
+.shop-button {
+    background-position: 70px 40px;
+}
+
+.shop-button:hover {
+    background-position: 114px 40px;
+}
+
+.shop-button:active {
+    background-position: 70px 40px;
+}
+

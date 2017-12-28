@@ -2,13 +2,7 @@
     overflow-x: hidden;
     background-image: url(../../images/achtergrond_desktop.jpg);
     background-position: center center;
-  
     background-size: cover;
-  
-  /* Set a background color that will be displayed
-     while the background image is loading */
-    background-color: #464646;
-
 }
 
 .img {
@@ -18,12 +12,6 @@
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.achtergrond {
-width: 100%;
-position: absolute;
-z-index: -999;
 }
 
 .fotohome {
@@ -85,6 +73,10 @@ h4.quote {
     background-color: #163139;
 }
 
+.btn:active { 
+    background-color: #9BABA8 !important;
+}
+
 p {
     font-family: lato;
 }
@@ -137,8 +129,12 @@ h5 {
     font-family: lato;   
 }
 
-.form-group-g {
-    margin-bottom: 50px; 
+.vervaldatum {
+    margin-top: 30px;
+}
+
+.betaalmethode {
+    margin-top: 45px;
 }
 
 #exampleInputEmail1 placeholder {
@@ -160,9 +156,12 @@ h5 {
 }
 
 .ondergrond {
+    margin-top: 15px;
+}
+
+.ondergrond_b {
     border-top: 5px solid #F1B31C ;
     border-bottom: 5px solid #F1B31C;
-    margin-top: 15px;
 }
 
 .beschikbaar {
@@ -213,6 +212,12 @@ h5 {
     margin-top: -312px;
 }
 
+.transition {
+    -webkit-transition: width 2s, height 4s;
+    transition: width 2s, height 4s;
+    transition: width 2s;
+}
+
 .slogan {
     color:#F1B31C;
     font-family: lato;
@@ -251,3 +256,81 @@ h5 {
 .checkoutw {
     margin-left: 30px;
 }
+
+@media screen and (max-width: 380px) {
+    
+    .wi {
+         margin-left: 50px;
+    }
+    
+    #x {
+        margin-left: 320px;
+        border: 2px solid black;
+        padding: 7px;
+        background-color: #F1B31C;
+    }
+
+        .table {
+            margin-left: -40px;
+            }  
+
+        .titeldatum {
+            margin-left: 20px;
+        }
+    }
+
+
+@media screen and (min-width:380px) and (max-width:780px) {
+    .be {
+        margin-left: 360px;
+        }
+  
+    .wi {
+        margin-left: 160px;
+        }
+
+    .be {
+        margin-left: 5px;
+        }
+
+
+    .table {
+        margin-left: 40px;
+        }   
+
+    #x {
+        margin-left: 500px;
+        border: 2px solid black;
+        padding: 7px;
+        background-color: #F1B31C;
+        }
+    }
+    
+    @media screen and (min-width: 781px) {
+    .pr  { 
+        margin-left: 380px;
+        }
+    
+    .wi {
+        margin-left: 400px; 
+        }
+    
+    .ch {
+        margin-left: 570px; 
+        }
+    
+    #kruisje {
+        margin-top: 20px;
+        }
+    
+    #x {
+        margin: 0px 520px;
+        border: 2px solid black;
+        padding: 7px;
+        background-color: #F1B31C;
+        }
+    
+    .be {
+        margin-left: 575px;
+        }
+    }
